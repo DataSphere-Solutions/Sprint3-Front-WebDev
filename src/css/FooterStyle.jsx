@@ -48,6 +48,7 @@ export const FooterStyle = styled.section`
     .line{
         width: 3px;
         padding-bottom: 10px;
+        opacity:30%;
     }
     .Div1{
         margin-top: -10px;

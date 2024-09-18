@@ -5,9 +5,7 @@ import App from './App.jsx'
 import Error from './routes/Error.jsx'
 import Home from './routes/Home.jsx'
 import Login from './routes/Login.jsx'
-import Carros from './routes/Produtos.jsx'
-import Sobre from './routes/Sobre.jsx'
-import Contato from './routes/Contato.jsx'
+import Palestras from './routes/Palestras.jsx'
 import GlobalStyle from './css/GlobalStyle.jsx'
 
 //função CreateBrowserRouter
@@ -20,10 +18,8 @@ const router = createBrowserRouter([
     //Elemento Filho
     children: [
       { path: '/', element: <Home /> },
+      { path: '/palestras', element: <Palestras/>},
       { path: '/login', element: <Login/>},
-      { path: '/Carros', element: <Carros/>},
-      { path: '/sobre', element: <Sobre /> },
-      { path:'/contato',element:<Contato/>},
     ]
   }
 ])
