@@ -2,25 +2,39 @@ import styled from 'styled-components'
 
 export const LoginStyle = styled.section`
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
 .container{
     width:100%;
     margin: 0 auto;
+    background-image: url('./src/assets/carro.png');
+    background-size: cover;
+    margin-top: -40px;
 }
 
 .container-login{
-    width:100%;
     min-height: 100vh;
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
+    margin-left:100px;
     align-items:center;
     padding:15px;
     background:transparent;
 }
 .login{
-    width:350px;
+    border-radius: 5px;
     margin-right:50px;
     background:transparent;
+    background-color: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 .login-form{
     width:100%
@@ -62,21 +76,23 @@ export const LoginStyle = styled.section`
 }
 .login-form-btn{
     font-size:1rem;
-    width:100%;
+    width:280px;
     height:50px;
-    background:#213550;
+    background:#22262b;
     color:#fff;
     text-transform:uppercase;
-    border-radius:20px;
+    border-radius:10px;
     transition: all 0.4s;
     cursor:pointer;
 }
 .login-form-btn:hover{
-    box-shadow:10px 10px 10px blue;
+    background:#343a41;
+    box-shadow:0px 7px 10px #0000005e;
 }
 .utilidades{
     margin-top:20px;
     margin-bottom:10px;
+    text-align:center;
 }
 .text1{
     color:#555;

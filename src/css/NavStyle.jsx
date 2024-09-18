@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavStyle = styled.header`
 .logo{
-    width: 85px;
+    width: 100px;
     position: absolute;
     padding-top: 15px;
     margin-left:15px;
@@ -34,5 +34,15 @@ export const NavStyle = styled.header`
 .nav ul .navLink:hover{
     text-decoration-color: #ffff;  
     transition: 0.7s;
+}
+.logoc{
+    text-align:end;
+    margin-right: 257px;
+    margin-top: -23px;
+    
+}
+.logo2{
+    width: 240px;  
+    position: absolute;  
 }
 `
