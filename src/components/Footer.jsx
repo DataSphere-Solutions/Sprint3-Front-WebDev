@@ -52,7 +52,7 @@ const Footer = () => {
             <section className='footer2'>
                 <nav>
                     <Link to="/" className="navLink">Home</Link>
-                    <Link to="/Contato" className="navLink">Palestras</Link>
+                    <Link to="/Palestras" className="navLink">Palestras</Link>
                     <Link to='/login' className="navLink">Login</Link>
                 </nav>
 
