@@ -79,7 +79,7 @@ form p{
 .form2{
     border-radius:5px;
     background: #fff;
-    max-width: 600px;
+    max-width: 700px;
     height: 700px;
     padding: 40px;
     text-align: center;

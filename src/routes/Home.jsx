@@ -1,4 +1,5 @@
 import { HomeStyle } from "../css/HomeStyle"
+import Slideshow from '../routes/Slideshow';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <section class="form-container">
                 <div class="container2">
                     <form className="form2">
+                        <Slideshow></Slideshow>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, quod? Dolore porro, accusantium aspernatur neque provident nulla veniam expedita quos hic tempora quidem repellat quisquam et modi ratione, exercitationem quibusdam!</p>
                     </form>
                 </div>

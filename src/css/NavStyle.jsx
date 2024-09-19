@@ -39,10 +39,10 @@ export const NavStyle = styled.header`
     text-align:end;
     margin-right: 257px;
     margin-top: -23px;
-    
 }
 .logo2{
     width: 240px;  
-    position: absolute;  
+    position: absolute;
+    opacity:80%;  
 }
 `
