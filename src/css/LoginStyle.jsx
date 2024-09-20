@@ -98,18 +98,12 @@ export const LoginStyle = styled.section`
     color:#555;
 }
 .text2{
-    color:blue;
-}
-img{
-    width:300px;
-    height:300px;
-    margin-left:50px;
-}
-img:hover{
-    border-radius:100%;
-    box-shadow:10px 10px 10px blue;
-
+    font-weight: 600;
+    color:#555;
+    transition:0.7s;
 }
 
-
+.text2:hover{
+    color:#0003ad;
+}
 `
