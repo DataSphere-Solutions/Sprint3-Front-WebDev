@@ -10,7 +10,7 @@ const Nav = () => {
                 <div className="container">
                     <ul>
                         <Link to="/" className="navLink">Home</Link>
-                        <Link to="/Palestras" className="navLink">Palestras</Link>
+                        <Link to="/Atividades" className="navLink">Atividades</Link>
                         <Link to='/login' className="navLink">Login</Link>
                     </ul>
                 </div>

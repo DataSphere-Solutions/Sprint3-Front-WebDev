@@ -7,7 +7,10 @@ export const NavStyle = styled.header`
     padding-top: 15px;
     margin-left:15px;
 }
-
+.nav{
+    position: relative;
+    z-index: 3;
+}
 .nav .container{
     display:flex;
     padding: 10px ;
