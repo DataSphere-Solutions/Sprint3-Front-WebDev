@@ -3,7 +3,7 @@
 
 ![Data Sphere1000x1000](https://github.com/ianmonteirom/CP2-Edge/assets/152393807/0fe80a9b-6290-417d-8367-2abe3824d0b0)
 
-## Grupo Data Sphere
+## Grupo Data Sphere!
 Nosso grupo é composto pelos integrantes:
 
 - <a href="https://www.linkedin.com/in/artur-alves-tenca-b1ba862b6/">Artur Alves</a> - RM 555171 
