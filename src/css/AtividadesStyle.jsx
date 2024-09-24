@@ -39,6 +39,9 @@ form p{
 }
 
 @media (max-width:600px){
-    
+    form{
+    max-width: 400px;
+    height: 350px;  
+}
 }
 `;
