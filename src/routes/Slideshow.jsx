@@ -5,7 +5,7 @@ import { SlideshowStyle } from '../css/SlideshowStyle';
 
 const images = [
     '../src/assets/carrinho.png',
-    '../src/assets/pessoa.png',
+    '../src/assets/pessoa.png'
 ];
 
 const Slideshow = () => {

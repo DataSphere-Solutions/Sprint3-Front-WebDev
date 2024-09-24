@@ -4,7 +4,6 @@ export const FooterStyle = styled.section`
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
     .footer1{
         display: flex;
         color: #D0D0D0;
@@ -77,5 +76,32 @@ export const FooterStyle = styled.section`
         color: #D0D0D0;
         padding-top: 40px;
         padding-bottom: 10px;
+    }
+
+    @media(max-width:600px){
+    .line{
+        display: none;
+    }
+    .footer1{
+        display: block;
+        padding-bottom: 30px;
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+    }
+    .div{
+        margin-bottom: 50px;
+        
+    }
+    .email{
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+    }
+    .insta{
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+    }
     }
 `
