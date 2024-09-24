@@ -13,16 +13,14 @@ const Slideshow = () => {
     const [index, setIndex] = useState(0);
     const [nextIndex, setNextIndex] = useState(1);
 
-    // Muda a imagem a cada 3 segundos
     useEffect(() => {
         const interval = setInterval(() => {
             setNextIndex((prevIndex) => (prevIndex + 1) % images.length);
             setIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000);
+        }, 5000);
         return () => clearInterval(interval);
     }, []);
 
-    // Animação com react-spring
     const props = useSpring({
         opacity: 1,
         from: { opacity: 0 },
