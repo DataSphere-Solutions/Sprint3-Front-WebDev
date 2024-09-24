@@ -50,8 +50,7 @@ export const NavStyle = styled.header`
 }
 @media (max-width:600px){
     .logo2{
-    z-index:-1;
-    opacity:0%; 
+    display :none ;
     }
     .container{
         margin-left: 50px;

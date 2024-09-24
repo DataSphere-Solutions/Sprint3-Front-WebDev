@@ -31,10 +31,10 @@ export const LoginStyle = styled.section`
     margin-right:50px;
     background:transparent;
     background-color: #ffffff;
-    padding-top: 130px;
-    padding-bottom: 130px;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 .login-form{
     width:100%
@@ -105,5 +105,18 @@ export const LoginStyle = styled.section`
 
 .text2:hover{
     color:#0003ad;
+}
+@media (max-width:600px){
+    .login{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}   
+    .container-login{
+        justify-content: center;
+        margin-left:50px;
+    }
 }
 `
