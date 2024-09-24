@@ -48,4 +48,17 @@ export const NavStyle = styled.header`
     position: absolute;
     opacity:80%;  
 }
+@media (max-width:600px){
+    .logo2{
+    z-index:-1;
+    opacity:0%; 
+    }
+    .container{
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: -7px;
+    }
+
+}
 `

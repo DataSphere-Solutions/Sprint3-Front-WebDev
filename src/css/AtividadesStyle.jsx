@@ -38,5 +38,7 @@ form p{
     margin-bottom: 25px;
 }
 
-
+@media (max-width:600px){
+    
+}
 `;
