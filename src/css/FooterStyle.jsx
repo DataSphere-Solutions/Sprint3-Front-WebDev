@@ -77,7 +77,9 @@ export const FooterStyle = styled.section`
         padding-top: 40px;
         padding-bottom: 10px;
     }
-
+    .line1{
+        display: none;
+    }
     @media(max-width:600px){
     .line{
         display: none;
@@ -91,7 +93,7 @@ export const FooterStyle = styled.section`
     }
     .div{
         margin-bottom: 50px;
-        
+
     }
     .email{
         justify-content:center;
@@ -102,6 +104,14 @@ export const FooterStyle = styled.section`
         justify-content:center;
         text-align: center;
         align-items: center;
+    }
+    .line1{
+        display: flex;
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 10px;
+        opacity: 80%;
+        height:4px;
     }
     }
 `
