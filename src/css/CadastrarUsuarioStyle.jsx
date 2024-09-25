@@ -13,8 +13,12 @@ export const CadastrarUsuarioStyle = styled.section`
 .x{
     color:black;
     position: absolute;
-    margin-top: -78px;
-    margin-left: -150px;
+    margin-top: -18px;
+    margin-left: -57px;
+    transition:all 0.7s;
+}
+.x:hover{
+    color:red;
 }
 .usuario{
     width:100%;
@@ -35,12 +39,13 @@ export const CadastrarUsuarioStyle = styled.section`
 }
 .login{
     border-radius: 5px;
+    margin-right:50px;
     background:transparent;
     background-color: #ffffff;
-    padding-top: 90px;
-    padding-bottom: 80px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 .usuario form{
     margin-bottom: 100px;
@@ -77,5 +82,34 @@ export const CadastrarUsuarioStyle = styled.section`
 .usuario form button:hover{
     background:#343a41;
     box-shadow:0px 7px 10px #0000005e;
+}
+@media (max-width:600px){
+
+    .x{
+    margin-top: 0px;
+    margin-left: -13px;
+}
+    .login{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}   
+.container-login{
+    justify-content: center;
+    margin-left: 50px;
+}
+.usuario form{
+    margin-bottom: 52px;
+    text-align: center;
+    padding-top: 0px;
+}
+.usuario input{
+    padding-left:20px;
+    padding-right: 20px; 
+    
+    margin-left: 20px;
+}
 }
 `

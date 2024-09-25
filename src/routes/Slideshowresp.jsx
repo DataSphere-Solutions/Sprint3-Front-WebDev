@@ -1,14 +1,14 @@
-// Slideshow.jsx
+
 import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import { SlideshowStyle } from '../css/SlideshowStyle';
+import { SlideshowStyleResp } from '../css/SlideshowStyleResp';
 
 const images = [
-    '../src/assets/carrinho.png',
-    '../src/assets/pessoa.png'
+    '../src/assets/carrinhoresp.png',
+    '../src/assets/pessoaresp.png'
 ];
 
-const Slideshow = () => {
+const Slideshowresp = () => {
     const [index, setIndex] = useState(0);
     const [nextIndex, setNextIndex] = useState(1);
 
@@ -33,7 +33,7 @@ const Slideshow = () => {
     });
 
     return (
-        <SlideshowStyle>
+        <SlideshowStyleResp>
             <div className="slideshow" style={{ position: 'relative', overflow: 'hidden' }}>
                 <animated.div style={{ ...props, position: 'absolute', top: 0, left: 0 }}>
                     <img src={images[index]} alt={`Slide ${index + 1}`} style={{ width: '100%', height: 'auto' }} />
@@ -42,8 +42,8 @@ const Slideshow = () => {
                     <img src={images[nextIndex]} alt={`Slide ${nextIndex + 1}`} style={{ width: '100%', height: 'auto' }} />
                 </animated.div>
             </div>
-        </SlideshowStyle>
+        </SlideshowStyleResp>
     );
 };
 
-export default Slideshow;
+export default Slideshowresp;

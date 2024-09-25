@@ -19,6 +19,8 @@ const Footer = () => {
                 </div>
 
                 <img src="./src/assets/Line 10.png" alt="" className='line' />
+                <img src="./src/assets/Line 11.png" alt="" className='line1' />
+
 
                 <div className='div'>
                     <img src="./src/assets/Fe.png" alt="" className='img' />
@@ -34,6 +36,7 @@ const Footer = () => {
                 </div>
 
                 <img src="./src/assets/Line 10.png" alt="" className='line' />
+                <img src="./src/assets/Line 11.png" alt="" className='line1' />
 
                 <div className='Div1'>
                     <img src="./src/assets/logob.png" alt="" className='imlogo' />
@@ -52,7 +55,7 @@ const Footer = () => {
             <section className='footer2'>
                 <nav>
                     <Link to="/" className="navLink">Home</Link>
-                    <Link to="/Palestras" className="navLink">Palestras</Link>
+                    <Link to="/Atividades" className="navLink">Atividades</Link>
                     <Link to='/login' className="navLink">Login</Link>
                 </nav>
 

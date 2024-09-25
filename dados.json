@@ -1,14 +1,5 @@
 {
   "usuarios": [
-    {
-      "id": "8ae9",
-      "usuario": "arue",
-      "senha": "123"
-    },
-    {
-      "id": "8b49",
-      "usuario": "Beth",
-      "senha": "12345"
-    }
+    
   ]
 }

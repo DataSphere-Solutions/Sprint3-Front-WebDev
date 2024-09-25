@@ -98,6 +98,17 @@ form p{
     height: 90px;
     margin-top:9px;
 }
+@media (max-width:600px){
+    form{
+    max-width: 400px;
+    height: 350px;
+    }
+    .form2{
+    max-width: 400px;
+    height: 500px;
+}
 
+
+}
 `
 

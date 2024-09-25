@@ -14,7 +14,6 @@ export const AtividadesStyle = styled.section`
     width: 100%; 
     
 }
-
 .container{
     z-index: 2;
     position: absolute;
@@ -26,6 +25,7 @@ export const AtividadesStyle = styled.section`
     margin-top: -40px;
 }
 form{
+    margin-top:80px;
     border-radius:5px;
     background: #fff;
     max-width: 500px;
@@ -38,5 +38,10 @@ form p{
     margin-bottom: 25px;
 }
 
-
+@media (max-width:600px){
+    form{
+    max-width: 400px;
+    height: 350px;  
+}
+}
 `;
