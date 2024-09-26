@@ -86,7 +86,7 @@ export const AgendamentosStyle = styled.section`
         cursor: pointer;
         position: absolute;
         margin-left: -20%;
-        margin-top: -35px;
+        margin-top: -40px;
         transform: scale(1.5);
     }
     
