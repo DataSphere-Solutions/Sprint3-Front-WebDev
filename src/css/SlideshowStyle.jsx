@@ -6,16 +6,12 @@ export const SlideshowStyle = styled.header`
     margin-top: -40px;
     z-index:-1;
     background-color:black;
-    width: 100%;
     height: 100vh;
-    overflow: hidden;
-    
+    width:100%;
 }
 
 .slideshow img {
     width: 100%;
-    height: auto; 
-    object-fit: cover;
 }
 
 .animated {
@@ -23,11 +19,6 @@ export const SlideshowStyle = styled.header`
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-}
-@media (max-width:600px) {
-    .slideshow {
-    display: none;
-    }
+    height: 100vh;
 }
 `

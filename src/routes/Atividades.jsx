@@ -1,5 +1,4 @@
 import Slideshow from '../routes/Slideshow';
-import Slideshowresp from './Slideshowresp';
 import { AtividadesStyle } from '../css/AtividadesStyle';
 import React from 'react';
 import SlideshowText from './SlideshowText';
@@ -25,7 +24,6 @@ const Atividades = () => {
             </section>
 
         <Slideshow></Slideshow>
-        <Slideshowresp></Slideshowresp>
       </section>
     </AtividadesStyle>
   );

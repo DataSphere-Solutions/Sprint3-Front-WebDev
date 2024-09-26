@@ -42,7 +42,7 @@ const Login =()=>{
                 sessionStorage.setItem("usuario",usuario.current.value);
                 sessionStorage.setItem("senha", token);
                 //chama o componente dashboard ao logar corretamente.
-                navigate("/Dashboard")       
+                navigate("/Agendamentos")       
         }else{
             alert("usuario/senha inválidos")
         }

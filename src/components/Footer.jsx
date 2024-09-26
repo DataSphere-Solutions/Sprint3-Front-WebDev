@@ -57,6 +57,7 @@ const Footer = () => {
                     <Link to="/" className="navLink">Home</Link>
                     <Link to="/Atividades" className="navLink">Atividades</Link>
                     <Link to='/login' className="navLink">Login</Link>
+                    <Link to='/login' className="navLink">Agendamentos</Link>
                 </nav>
 
                 <h5>@2024 - Todos direitos reservados à DataSphere/TechMahindra/FormulaE</h5>
