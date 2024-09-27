@@ -37,7 +37,7 @@ const Agendamentos = () => {
                         <button className="cards">
                             <h3>Colégio Futuro Brilhante</h3>
                             <p>Cidade: Vila Esperança <br />
-                                Rua: Avenida dos Sonhos, 456</p>
+                                Rua: Avenida dos Sonhos, 4756</p>
                                 <label><input type="checkbox" /></label>
                         </button>
 
