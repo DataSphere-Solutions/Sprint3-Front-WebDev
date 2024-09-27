@@ -46,6 +46,8 @@ export const CadastrarUsuarioStyle = styled.section`
     padding-bottom: 35px;
     padding-left: 75px;
     padding-right: 75px;
+    box-shadow: #000000FF 0px 15px 20px;
+    
 }
 .usuario form{
     margin-bottom: 100px;

@@ -32,6 +32,7 @@ form{
     height: 450px;
     padding: 40px;
     text-align: center;
+    box-shadow: #000000E4 0px 15px 20px;
 }
 form p{
     text-align: center;

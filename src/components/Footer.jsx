@@ -47,7 +47,7 @@ const Footer = () => {
 
                     <div className='insta'>
                         <img src="./src/assets/icons8-instagram-24.png" alt="" />
-                        <a href="">Data Sphere</a>
+                        <a href="https://www.instagram.com/datasphere_solutions/">Data Sphere</a>
                     </div>
                 </div>
             </section>

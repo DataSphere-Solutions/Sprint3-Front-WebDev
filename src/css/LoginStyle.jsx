@@ -35,6 +35,7 @@ export const LoginStyle = styled.section`
     padding-bottom: 70px;
     padding-left: 110px;
     padding-right: 110px;
+    box-shadow: #000000FF 0px 15px 20px;
 }
 .login-form{
     width:100%
@@ -67,6 +68,7 @@ export const LoginStyle = styled.section`
     padding:0 5px;
     border:none;
     outline:0;
+    text-align: center;
     
 }
 .login-btn{
