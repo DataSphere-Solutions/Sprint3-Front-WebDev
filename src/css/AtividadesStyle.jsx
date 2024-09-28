@@ -34,9 +34,19 @@ form{
     text-align: center;
     box-shadow: #000000E4 0px 15px 20px;
 }
-form p{
-    text-align: center;
-    margin-bottom: 25px;
+form img{
+    width: 35px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+.slide1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.slide2{
+
 }
 
 @media (max-width:600px){

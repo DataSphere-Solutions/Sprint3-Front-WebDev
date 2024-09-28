@@ -62,7 +62,7 @@ form{
 form p{
     margin-top:15px;
     text-align: center;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 
