@@ -50,6 +50,7 @@ const Agendamentos = () => {
                     </div>
                 </div>
                 <div className="linha"></div>
+                
             </section>
         </AgendamentosStyle>
     )

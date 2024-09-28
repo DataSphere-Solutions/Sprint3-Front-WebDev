@@ -1,14 +1,14 @@
 // Slideshow.jsx
 import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import { SlideshowStyle } from '../css/SlideshowStyle';
+import { SlideshowRespStyle } from '../css/SlideshowRespStyle';
 
 const images = [
-    '../src/assets/carrinho.png',
-    '../src/assets/pessoa.png'
+    '../src/assets/carrinhoresp.png',
+    '../src/assets/pessoaresp.png'
 ];
 
-const Slideshow = () => {
+const SlideshowResp = () => {
     const [index, setIndex] = useState(0);
     const [nextIndex, setNextIndex] = useState(1);
 
@@ -33,17 +33,17 @@ const Slideshow = () => {
     });
 
     return (
-        <SlideshowStyle>
+        <SlideshowRespStyle>
             <div className="slideshow" style={{ position: 'relative', overflow: 'hidden' }}>
                 <animated.div style={{ ...props, position: 'absolute', top: 0, left: 0 }}>
-                    <img src={images[index]} alt={`Slide ${index + 1}`} style={{ width: '114%', height: '110vh' }} />
+                    <img src={images[index]} alt={`Slide ${index + 1}`} style={{ width: '140%', height: '100vh' }} />
                 </animated.div>
                 <animated.div style={{ ...nextProps, position: 'absolute', top: 0, left: 0 }}>
-                    <img src={images[nextIndex]} alt={`Slide ${nextIndex + 1}`} style={{ width: '114%', height: '110vh' }} />
+                    <img src={images[nextIndex]} alt={`Slide ${nextIndex + 1}`} style={{ width: '140%', height: '100vh' }} />
                 </animated.div>
             </div>
-        </SlideshowStyle>
+        </SlideshowRespStyle>
     );
 };
 
-export default Slideshow;
+export default SlideshowResp;

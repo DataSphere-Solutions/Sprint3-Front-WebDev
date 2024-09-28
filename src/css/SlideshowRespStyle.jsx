@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const SlideshowStyle = styled.header`
+export const SlideshowRespStyle = styled.header`
 
 .slideshow {
+    display: none;
     margin-top: -40px;
     z-index:-1;
     background-color:black;
@@ -21,10 +22,9 @@ export const SlideshowStyle = styled.header`
     width: 100%;
     height: 100vh;
 }
-
 @media (max-width:800px) {
     .slideshow{
-        display: none;
+        display: block;
     }
 }
 `
