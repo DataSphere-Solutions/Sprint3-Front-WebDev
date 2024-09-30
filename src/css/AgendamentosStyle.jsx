@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 export const AgendamentosStyle = styled.section`
@@ -9,7 +10,6 @@ export const AgendamentosStyle = styled.section`
     }
     section{
         margin-top: -40px;
-        height: 100vh;
         background-color: #06001a ;
     }
     
@@ -89,8 +89,124 @@ export const AgendamentosStyle = styled.section`
         margin-top: -40px;
         transform: scale(1.5);
     }
+    .azul{
+        background-color: #06001a;
+        width: 100%;
+        height: 750px;
+    }
+   
+.h22{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: -60px;
+}
+header{
+    text-align: center;
+    padding: 2rem;
+    background: var(--color1);
+    border-bottom:  1px solid var(--color6);
+}
+main{
+    max-width: 133rem;
+    margin: auto;
+}
+.produto-grid{
+    margin-top: -760px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto,1fr));
+    gap:1rem;
+    padding: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.produto-item{
+    justify-content: center;
+    text-align: center;
+    color:var(--color4);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
-    
-    
+}
+.produto-item div{
+    cursor: pointer;
+    background-color: #FFFFFFFF;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 10Px;
+    padding-right: 10px;
+    border-radius:5px;
+    width: 100%;
+    justify-content: space-evenly;
+    box-shadow: #000000FF 0px 5px 10px;
+    transition: all 0.5s;
+}
 
+.produto-item div:hover{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    transition: all 0.5s;
+}
+
+.produto-item p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:black;
+}
+.produto-item h3{
+    color:black;
+}
+.span-row-2{
+    grid-row: span 2;
+}
+
+.span-col-2{
+    grid-column: span 2;
+}
+
+.Agendar{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-left: 40%;
+    cursor: pointer;
+    background-color: #2bfb2b;
+    box-shadow: #000000FC 0px 5px 10px;
+    transition: all 0.5s;
+}
+.Agendar:hover{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 57px;
+    background-color: #00FF00FF;
+}
+
+@media(width <= 500px){
+    .Agendar{
+        margin-left: 100px;
+    }
+    .azul{
+        height: 1570px;
+    }
+    .produto-grid{
+    margin-top: -1580px;
+    }
+    .produto-grid{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+    .span-row-2{
+        grid-column: span 2;
+    }
+}
 `

@@ -1,3 +1,4 @@
+
 import { HomeStyle } from "../css/HomeStyle"
 
 
@@ -26,6 +27,7 @@ const Home = () => {
                         <p>Data Sphere é uma empresa fictícia criada para simular uma equipe do mercado representando ao nosso grupo para as entregas dos trabalhos. Nossa solução para este problema foi a criação de atividades escolares. Para mais informações, veja a página de <a href="/atividades">Atividades</a>. </p>
                     </form>
                 </div>
+
             </section>
         </HomeStyle>
 

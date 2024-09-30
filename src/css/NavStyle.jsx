@@ -48,6 +48,12 @@ export const NavStyle = styled.header`
     position: absolute;
     opacity:80%;  
 }
+@media (max-width:750px){
+    .logo2{
+        display:none;
+    }
+
+}
 @media (max-width:600px){
     .logo2{
     display :none ;

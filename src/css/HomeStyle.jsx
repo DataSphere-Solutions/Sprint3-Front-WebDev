@@ -12,7 +12,6 @@ export const HomeStyle = styled.section`
 }
 .home{
     width: 100%; 
-    
 }
 .container{
     height: 100vh;
@@ -130,8 +129,7 @@ form p{
     height: 600px;
 
 }
-
-
 }
+
 `
 
