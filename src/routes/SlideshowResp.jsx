@@ -36,10 +36,10 @@ const SlideshowResp = () => {
         <SlideshowRespStyle>
             <div className="slideshow" style={{ position: 'relative', overflow: 'hidden' }}>
                 <animated.div style={{ ...props, position: 'absolute', top: 0, left: 0 }}>
-                    <img src={images[index]} alt={`Slide ${index + 1}`} style={{ width: '140%', height: '100vh' }} />
+                    <img src={images[index]} alt={`Slide ${index + 1}`} style={{ width: '160%', height: '100vh' }} />
                 </animated.div>
                 <animated.div style={{ ...nextProps, position: 'absolute', top: 0, left: 0 }}>
-                    <img src={images[nextIndex]} alt={`Slide ${nextIndex + 1}`} style={{ width: '140%', height: '100vh' }} />
+                    <img src={images[nextIndex]} alt={`Slide ${nextIndex + 1}`} style={{ width: '160%', height: '100vh' }} />
                 </animated.div>
             </div>
         </SlideshowRespStyle>

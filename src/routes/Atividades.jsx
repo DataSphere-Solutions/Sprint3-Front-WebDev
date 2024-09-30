@@ -8,9 +8,9 @@ import SlideshowResp from './SlideshowResp';
 const Atividades = () => {
   const texts = [
     "Bem-vindo à página de Atividades Escolares ",
-    "Corridas swrgsrgrgregegeg",
-    "Participe das nossas oficinas!",
-    "Entre em contato para mais informações."
+    "Palestras",
+    "Corridas",
+    "Prêmios"
   ];
 
   const texts2 = [
