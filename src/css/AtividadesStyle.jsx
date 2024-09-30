@@ -29,7 +29,7 @@ form{
     border-radius:5px;
     background: #fff;
     max-width: 500px;
-    height: 450px;
+    height: 380px;
     padding: 40px;
     text-align: center;
     box-shadow: #000000E4 0px 15px 20px;
@@ -52,7 +52,7 @@ form img{
 @media (max-width:600px){
     form{
     max-width: 400px;
-    height: 350px;  
+    height: 450px;  
 }
 }
 `;
