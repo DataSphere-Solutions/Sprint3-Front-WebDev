@@ -3,11 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://seu-usuario.https://github.com/DataSphere-Solutions/Sprint3-Front-WebDev",
 
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "backend": "json-server --watch dados.json --port 5000",
     "build": "vite build",
