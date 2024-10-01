@@ -31,11 +31,11 @@ const Atividades = () => {
             <form>
               <img src="./src/assets/data.png" alt="" />
               <div className='slide1'>
-                <SlideshowText texts={texts} interval={5000} />
+                <SlideshowText texts={texts} interval={10000} />
               </div>
 
               <div className='slide2'>
-                <SlideshowText texts={texts2} interval={5000} />
+                <SlideshowText texts={texts2} interval={10000} />
               </div>
             </form>
           </div>

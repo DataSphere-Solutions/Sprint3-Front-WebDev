@@ -4,8 +4,11 @@ import { useSpring, animated } from 'react-spring';
 import { SlideshowStyle } from '../css/SlideshowStyle';
 
 const images = [
-    '../src/assets/carrinho.png',
-    '../src/assets/pessoa.png'
+    '../src/assets/pista.png',
+    '../src/assets/logofundo (2).png',
+    '../src/assets/pessoa.png',
+    '../src/assets/carrinho.png'
+    
 ];
 
 const Slideshow = () => {
@@ -16,7 +19,7 @@ const Slideshow = () => {
         const interval = setInterval(() => {
             setNextIndex((prevIndex) => (prevIndex + 1) % images.length);
             setIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 5000);
+        }, 10000);
         return () => clearInterval(interval);
     }, []);
 

@@ -106,19 +106,15 @@ header{
     background: var(--color1);
     border-bottom:  1px solid var(--color6);
 }
-main{
-    max-width: 133rem;
-    margin: auto;
-}
+
 .produto-grid{
+    margin-left: 10%;
     margin-top: -760px;
     position: absolute;
     display: grid;
     grid-template-columns: repeat(4, minmax(auto,1fr));
     gap:1rem;
     padding: 2rem;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 .produto-item{
     justify-content: center;
@@ -126,12 +122,10 @@ main{
     color:var(--color4);
     padding: 2rem 1rem;
     border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 
 }
 .produto-item div{
+    
     cursor: pointer;
     background-color: #FFFFFFFF;
     padding-top: 20px;
@@ -166,8 +160,11 @@ main{
 .span-col-2{
     grid-column: span 2;
 }
-
+.btn2{
+    text-align: center;
+}
 .Agendar{
+    text-align: center;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 25px;
@@ -178,7 +175,6 @@ main{
     padding-right: 70px;
     border-radius: 5px;
     margin-bottom: 60px;
-    margin-left: 40%;
     cursor: pointer;
     background-color: #2bfb2b;
     box-shadow: #000000FC 0px 5px 10px;
